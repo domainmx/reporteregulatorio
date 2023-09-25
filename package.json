@@ -1,7 +1,7 @@
 {
-  "name": "rewy-gatsby",
+  "name": "reporteregulatorio",
   "private": true,
-  "description": "Gatsby React IT Startup Template",
+  "description": "Reporte Regulatorio CNSF, compliance y validaciones",
   "version": "1.9.0",
   "license": "0BSD",
   "scripts": {

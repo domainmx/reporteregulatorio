@@ -5,12 +5,12 @@ const SEO = () => {
     return (
         <div>
             <Helmet>
-                <title>Rewy - Gatsby IT Startup Templates Collection</title>
-                <meta name="description" content="Rewy - React Gatsby IT Startup Templates Collection" />
-                <meta name="og:title" property="og:title" content="Rewy - React Gatsby IT Startup Templates Collection"></meta>
-                <meta name="twitter:card" content="Rewy - React Gatsby IT Startup Templates Collection"></meta>
-                <link rel="canonical" href="https://rewy-react.envytheme.com/"></link>
-                <meta property="og:image" content="https://res.cloudinary.com/dev-empty/image/upload/v1593069801/explore-learning.jpg" />
+                <title>Reporte Regulatorio - Para todas las necesidades de cumplimiento y automatización con la CNSF</title>
+                <meta name="description" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación" />
+                <meta name="og:title" property="og:title" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación"></meta>
+                <meta name="twitter:card" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación"></meta>
+                <link rel="canonical" href="https://reporteregulatorio.mx/"></link>
+                <meta property="og:image" content="https://reporteregulatorio.mx/static/logo-dd4d191036840e7cdde30cac4367d8a0.png" />
             </Helmet>
         </div>
     )
