@@ -1,7 +1,7 @@
 import React from 'react';
 
 import StarIcon from '../../assets/images/star-icon.png'
-import HowItsWork from '../../assets/images/how-its-work.png'
+import HowItsWork from '../../assets/images/how-it-works2.png'
 
 const HowItWork = () => {
     return (
@@ -57,7 +57,7 @@ const HowItWork = () => {
                                         6
                                     </div>
                                     <h3>Carga otros RRs</h3>
-                                    <p>Tú, o alguien de otro departamento, puedes subir archivos para otros Reportes Regulatorios. Todo se valida en tiempo real, y si se detectan problemas, te avisará de inmediato.</p>
+                                    <p>Tú, o alguien de otro departamento, pueden subir archivos para otros Reportes Regulatorios. Todo se valida en tiempo real, y si se detectan problemas, el sistema te avisa de inmediato.</p>
                                 </div>
                             </div>
                         </div>

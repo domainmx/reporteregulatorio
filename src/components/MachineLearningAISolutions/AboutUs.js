@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby'
 
-import AboutImg from '../../assets/images/about/about-img9.png'
+import AboutImg from '../../assets/images/about/about-img14.png'
 import StarIcon from '../../assets/images/star-icon.png'
 import Icon4 from '../../assets/images/icons/icon4.png'
 import Icon5 from '../../assets/images/icons/icon5.png'

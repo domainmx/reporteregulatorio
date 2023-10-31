@@ -5,7 +5,7 @@ const SEO = () => {
     return (
         <div>
             <Helmet>
-                <title>Reporte Regulatorio - Para todas las necesidades de cumplimiento y automatización con la CNSF</title>
+                <title>Reporte Regulatorio - Para todas las necesidades de cumplimiento y automatización de los RRs con la CNSF</title>
                 <meta name="description" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación" />
                 <meta name="og:title" property="og:title" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación"></meta>
                 <meta name="twitter:card" content="Suite IntraVR360 - Cumplimiento regulatorio CNSF + automatización y validación"></meta>

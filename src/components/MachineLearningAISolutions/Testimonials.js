@@ -81,22 +81,6 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    <div className="single-testimonials-item">
-                            <p>Para Sura ha sido una experiencia excelente trabajar con el sistema IntraVR: 
-                                nos ayudaron con la automatización de la balanza de resultados y ahora generar 
-                                14 archivos del R7 es tan fácil como subir el archivo directamente desde el sistema
-                                contable, pulsar "Enviar" y listo.
-                            </p>
-                        <div className="client-info">
-                            <div className="d-flex justify-content-center align-items-center">
-                                <img src={client3} alt="testimonial" />
-                                <div className="title">
-                                    <h3>Sandro Valles</h3>
-                                    <span>Sura</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </OwlCarousel> : ''}
 
                 <div className="testimonials-view-btn text-center">

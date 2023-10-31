@@ -50,9 +50,9 @@ const MainBanner = () => {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="banner-item-content">
-                                    <span className="sub-title">Bienvenida</span>
-                                    <h1>La solución para el cumplimiento regulatorio</h1>
-                                    <p>La suite IntraVR360 es una solución para integrar, administrar, validar y automatizar la generación y envío de Reportes Regulatorios a la CNSF</p>
+                                    <span className="sub-title">IntraVR</span>
+                                    <h1>Soluciona los Reportes Regulatorios</h1>
+                                    <p>La suite IntraVR360 integra, administra, valida y automatiza la generación y envío de Reportes Regulatorios a la CNSF</p>
 
                                     <div className="btn-box">
                                         <Link to="/about-us" className="default-btn">
@@ -79,7 +79,7 @@ const MainBanner = () => {
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="banner-item-content">
-                                    <span className="sub-title">Bienvenida</span>
+                                    <span className="sub-title">IntraVR</span>
                                     <h1>Amplia experiencia en el sector</h1>
                                     <p>Con 19 años en el sector financiero y asegurador, nuestra experiencia
                                         incluye sistemas para bancos, aseguradoras, afianzadoras y varios

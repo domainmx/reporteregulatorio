@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImage from '../../assets/images/about/about-img5.png'
+import aboutImage from '../../assets/images/about/about-img14.png'
 import starIcon from '../../assets/images/star-icon.png'
 import icon4 from '../../assets/images/icons/icon4.png'
 import icon5 from '../../assets/images/icons/icon5.png'
