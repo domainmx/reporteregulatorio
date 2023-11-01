@@ -36,7 +36,7 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget pl-5">
-                            <h3>El sitio</h3>
+                            <h3>"El Intra"</h3>
                             
                             <ul className="footer-links-list">
                                 <li>
@@ -50,8 +50,10 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact">
-                                        Contacto
+                                    <Link to="/contact"
+                                        className="default-btn"
+                                    >
+                                        <i className="flaticon-right"></i> Contáctanos <span></span>
                                     </Link>
                                 </li>
                             </ul>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import aboutImage from '../../assets/images/about/about-img14.png'
 import starIcon from '../../assets/images/star-icon.png'
 import icon4 from '../../assets/images/icons/icon4.png'
@@ -85,7 +86,7 @@ const AboutUsContent = () => {
                                 
                                 <ul className="features-list">
                                     <li><i className="flaticon-tick"></i> Reglas actualizadas</li>
-                                    <li><i className="flaticon-tick"></i> Validacioens exhaustivas</li>
+                                    <li><i className="flaticon-tick"></i> Validaciones exhaustivas</li>
                                     <li><i className="flaticon-tick"></i> Velocidad de procesamiento</li>
                                     <li><i className="flaticon-tick"></i> Errores 100% legibles</li>
                                 </ul>
@@ -104,6 +105,20 @@ const AboutUsContent = () => {
                                     <li><i className="flaticon-tick"></i> Validaciones personalizadas</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
+                            <br/>
+                            <br/>
+                            <br/>
+                            <Link 
+                                to="/contact" 
+                                activeClassName="active"
+                                className="default-btn"
+                            >
+                                <i className="flaticon-right"></i> Contáctanos <span></span>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,6 @@ const AboutUs = () => {
                 activePageText="Acerca de" 
             />
             <AboutUsContent />
-            <HowItWork />
             <Footer />
         </Layout>
     );

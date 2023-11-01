@@ -77,7 +77,7 @@ const AboutUs = () => {
 
                                     <Link to="/about-us" className="default-btn">
                                         <i className="flaticon-right"></i> 
-                                        Conocer más <span></span>
+                                        Saber más <span></span>
                                     </Link>
                                 </div>
                             </div>
