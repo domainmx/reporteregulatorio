@@ -38,6 +38,7 @@ const AboutUs = () => {
                                         to="#play-video" 
                                         onClick={e => {e.preventDefault(); openModal()}} 
                                         className="video-btn popup-youtube"
+                                        style={{display: 'none'}}
                                     >
                                         <i className="flaticon-google-play"></i> Ver el video
                                     </Link>
@@ -55,13 +56,13 @@ const AboutUs = () => {
                                     <h2>Nuestros clientes usan el sistema desde 2017</h2>
                                     <p>Más de cinco años utilizando nuestro sistema mes tras mes, 
                                         generando archivos automáticamente, haciendo todas las validaciones
-                                        que pide la Comisión, con 100% de aceptación en el SEIVE
+                                        que pide la CNSF, con 100% de aceptación en el SEIVE.
                                     </p>
                                     
                                     <ul className="features-list">
                                         <li>
                                             <img src={Icon4} alt="Icon4" />
-                                            <h3>6 años</h3>
+                                            <h3>8 años</h3>
                                             <p>En el mercado</p>
                                         </li>
                                         <li>

@@ -22,35 +22,35 @@ const HowItWork = () => {
                                         1
                                     </div>
                                     <h3>Sube un archivo de Excel</h3>
-                                    <p>El archivo puede ser el de la balanza, el reporte de tu sistema, o un archivo preparado manualmente por tu equipo</p>
+                                    <p>El archivo puede ser el de la balanza, el reporte de tu sistema, o un archivo preparado manualmente por tu equipo.</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="count-box">
                                         2
                                     </div>
                                     <h3>Pulsa el botón "Cargar"</h3>
-                                    <p>En algún caso, ¡quizá ni siquiera hace falta pulsar el botón! (cuando hayamos integrado nuestro sistema con alguno de los tuyos)</p>
+                                    <p>En algún caso, ¡quizá ni siquiera hace falta pulsar el botón! (Cuando hayamos integrado nuestro sistema con alguno de los tuyos)</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="count-box">
                                         3
                                     </div>
                                     <h3>Revisa los resultados</h3>
-                                    <p>¿Quizá tu archivo no estaba 100% correcto? A veces hay errores entre distintos Reportes Regulatorios, y esos -por supuesto- también los detectamos!</p>
+                                    <p>¿Quizá tu archivo no estaba 100% correcto? A veces hay errores entre distintos Reportes Regulatorios, y esos -por supuesto- ¡también los detectamos!</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="count-box">
                                         4
                                     </div>
                                     <h3>Carga archivos adicionales</h3>
-                                    <p>Puedes hacer cargas manuales de archivos individuales o cargar los provenientes de otros RRs. <br/>El sistema los validará inmediatamente, asegurándose de que cumplan con todos los archivos existentes</p>
+                                    <p>Puedes hacer cargas manuales de archivos individuales o cargar los provenientes de otros RRs. <br/>El sistema los validará inmediatamente, asegurándose de que cumplan con todos los archivos existentes.</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="count-box">
                                         5
                                     </div>
                                     <h3>Genera el archivo .zip</h3>
-                                    <p>Genera un archivo .zip con todos los archivos de tu RR. Sólo hace falta firmarlo y enviarlo al SEIVE!</p>
+                                    <p>Genera un archivo .zip con todos los archivos de tu RR. ¡Sólo hace falta firmarlo y enviarlo al SEIVE!</p>
                                 </div>
                                 <div className="single-item">
                                     <div className="count-box">

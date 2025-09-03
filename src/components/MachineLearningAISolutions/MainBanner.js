@@ -57,13 +57,14 @@ const MainBanner = () => {
                                     <div className="btn-box">
                                         <Link to="/about-us" className="default-btn">
                                             <i className="flaticon-right"></i> 
-                                            Acerca de<span></span>
+                                            Conoce más<span></span>
                                         </Link>
 
                                         <Link 
                                             to="#play-video" 
                                             onClick={e => {e.preventDefault(); openModal()}} 
                                             className="video-btn popup-youtube"
+                                            style={{display: 'none'}}
                                         >
                                             <i className="flaticon-google-play"></i> Ver video
                                         </Link>
@@ -89,13 +90,14 @@ const MainBanner = () => {
                                     <div className="btn-box">
                                         <Link to="/about-us" className="default-btn">
                                             <i className="flaticon-right"></i> 
-                                            Acerca de<span></span>
+                                            Conoce más<span></span>
                                         </Link>
 
                                         <Link 
                                             to="#play-video" 
                                             onClick={e => {e.preventDefault(); openModal()}} 
                                             className="video-btn popup-youtube"
+                                            style={{display: 'none'}}
                                         >
                                             <i className="flaticon-google-play"></i> Ver video
                                         </Link>

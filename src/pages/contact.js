@@ -15,8 +15,8 @@ const Contact = () => {
                 homePageUrl="/" 
                 activePageText="Contacto" 
             />
-            <ContactForm />
             <ContactInfo />
+            <ContactForm />
             <Footer />
         </Layout>
     );

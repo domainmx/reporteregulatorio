@@ -46,14 +46,12 @@ const Footer = () => {
                                 </li>
                                     <li>
                                     <Link to="/about-us">
-                                        Acerca de
+                                        IntraVR360
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact"
-                                        className="default-btn"
-                                    >
-                                        <i className="flaticon-right"></i> Contáctanos <span></span>
+                                    <Link to="/contact">
+                                        Contáctanos
                                     </Link>
                                 </li>
                             </ul>
@@ -66,13 +64,13 @@ const Footer = () => {
 
                             <ul className="footer-links-list">
                                 <li>
-                                    <Link to="/testimonials">
-                                        Testimonios
+                                    <Link to="/services">
+                                        Ventajas
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/services">
-                                        Ventajas
+                                    <Link to="/testimonials">
+                                        Testimonios
                                     </Link>
                                 </li>
                             </ul>
@@ -90,7 +88,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
-                                    <a href="tel:+44587154756">(55) 55 5252 3629</a>
+                                    <a href="tel:+525552523629">(+52)-555252-3629</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>

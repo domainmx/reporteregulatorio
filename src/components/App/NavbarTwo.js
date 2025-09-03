@@ -74,7 +74,7 @@ const NavbarTwo = () => {
                                             onClick={e => e.preventDefault()}
                                             className="nav-link"
                                         >
-                                            Acerca de <i className='bx bx-chevron-down'></i>
+                                            IntraVR360 <i className='bx bx-chevron-down'></i>
                                         </Link>
                                         
                                         <ul className="dropdown-menu">
@@ -86,7 +86,7 @@ const NavbarTwo = () => {
                                                     onClick={() => setCollapsed(true)}
                                                     className="nav-link"
                                                 >
-                                                   Acerca de
+                                                   Sobre IntraVR360
                                                 </Link>
                                             </li>
 

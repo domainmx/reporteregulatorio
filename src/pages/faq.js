@@ -31,7 +31,7 @@ const FAQ = () => {
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q1. ¿Qué módulos de los Reportes Regulatorios ofrecen?
+                                        <span style={{color: '#ff6600'}}>Q1.</span> ¿Qué módulos de los Reportes Regulatorios ofrecen?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -44,7 +44,7 @@ const FAQ = () => {
                             <AccordionItem uuid="b">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q2. Si contrato hoy, ¿qué funciones tendría habilitadas?
+                                        <span style={{color: '#ff6600'}}>Q2.</span> Si contrato hoy, ¿qué funciones tendría habilitadas?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -64,7 +64,7 @@ const FAQ = () => {
                             <AccordionItem uuid="c">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q3. ¿Qué necesito hacer si quiero automatizar los Reportes Regulatorios?
+                                        <span style={{color: '#ff6600'}}>Q3.</span> ¿Qué necesito hacer si quiero automatizar los Reportes Regulatorios?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -83,7 +83,7 @@ const FAQ = () => {
                             <AccordionItem uuid="d">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q4. ¿Cuánto tiempo toma hacer la automatización?
+                                        <span style={{color: '#ff6600'}}>Q4.</span> ¿Cuánto tiempo toma hacer la automatización?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -100,7 +100,7 @@ const FAQ = () => {
                             <AccordionItem uuid="e">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q5. ¿Se puede utilizar la balanza de resultados para generar archivos del R7?
+                                        <span style={{color: '#ff6600'}}>Q5.</span> ¿Se puede utilizar la balanza de resultados para generar archivos del R7?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
@@ -134,7 +134,7 @@ const FAQ = () => {
                             <AccordionItem uuid="f">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
-                                        Q5. ¿Cómo funciona el contrato por el servicio?
+                                        <span style={{color: '#ff6600'}}>Q6.</span> ¿Cómo funciona el contrato por el servicio?
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
