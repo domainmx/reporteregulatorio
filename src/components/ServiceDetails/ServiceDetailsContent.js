@@ -38,8 +38,9 @@ function Contenido(props) {
                     <h3>Automatización</h3>
                     <p>El total de archivos que solicita la CUSF es de más de 300… estamos entonces
                         de acuerdo en que es casi imposible generar cada uno manualmante, ¿cierto?
-                        <br/>
-                        La solución es la <b>automatización</b> de los Reportes Regulatorios. Sigue leyendo 
+                    </p>
+                    
+                    <p>La solución es la <b>automatización</b> de los Reportes Regulatorios. Sigue leyendo 
                         para conocer más sobre nuestra postura.
                     </p>
 
@@ -77,15 +78,17 @@ function Contenido(props) {
                     <p>No más correos con la última-ultima-ultimaversion.txt de los
                         archivos: cuando las diferentes áreas necesiten intercambiar 
                         información, pueden hacerlo vía el sistema:
-                        <br/>
-                        Por ejemplo, el área que procesa el R4 necesita el archivo
+                    </p>
+                    
+                    <p>Por ejemplo, el área que procesa el R4 necesita el archivo
                         INVE que se sube por otra área, al Reporte R7. Simplemente se
                         "suscriben" (vía el sistema) al archivo INVE y en cuanto se
                         haga cualquier movimiento con él -es decir, cuando se suba 
                         la primera, segunda, tercera versión del archivo- les llegará
                         un correo.
-                        <br/>
-                        Con esto, el mencionado usuario puede dirigirse al módulo R7,
+                    </p>
+                    
+                    <p>Con esto, el mencionado usuario puede dirigirse al módulo R7,
                         para el cual el administrador le habrá dado permisos de sólo lectura,
                         y podrá descargar desde ahí el archivo. De este modo, Siempre
                         utilizará la última y correcta versión del archivo.
@@ -107,12 +110,14 @@ function Contenido(props) {
                         con permisos para suscribirse a ciertos archivos, a descargar
                         otros, a subir sólo los archivos que le corresponden dependiendo
                         del área al que pertenezca, etc.
-                        <br/>
-                        De esta manera, puedes estar seguro de que nadie subirá archivos
+                    </p>
+                    
+                    <p>De esta manera, puedes estar seguro de que nadie subirá archivos
                         por error, sin que le corresponda, e incluso que sólo ciertos usuarios
                         tendrán acceso a reportes clave de la compañía.
-                        <br/>
-                        Pero ¿qué ocurre si un usuario inadvertidamente sube un archivo
+                    </p>
+                    
+                    <p>Pero ¿qué ocurre si un usuario inadvertidamente sube un archivo
                         incorrecto y sobreescribe un archivo anterior, que ya estaba validado?
                         Para empezar, nuestro sistema no permite que ocurra ese caso en 
                         particular, pero además cuenta con una bitácora de acceso y de
@@ -133,15 +138,17 @@ function Contenido(props) {
                     <h3>Cifras de control</h3>
                     <p>Desarrollamos en el sistema un reporte especial, llamado
                         Cifras de Control. Es una versión mejorada del reporte que 
-                        el SEIVE arroja al terminar de subir el R7. 
-                        <br/>
-                        La diferencia principal es que el nuestro puedes ejecutarlo
+                        el SEIVE arroja al terminar de subir el R7.
+                    </p>
+                    
+                    <p>La diferencia principal es que el nuestro puedes ejecutarlo
                         conforme vas subiendo archivos: quizá primero subes el INVE, 
                         luego el CRED, luego el CMBG, el CMER, el FOPA… en cada momento
                         puedes revisar el reporte de Cifras de Control y tomar decisiones
                         que pueden ahorrarle mucho, pero mucho dinero a la compañía.
-                        <br/>
-                        Para ver el reporte, puedes ir a la sección de <Link to="/gallery" 
+                    </p>
+                    
+                    <p>Para ver el reporte, puedes ir a la sección de <Link to="/gallery" 
                                                     activeClassName="active"
                                                     className="nav-link" > Galería.</Link>
                     </p>
@@ -163,16 +170,17 @@ function Contenido(props) {
                         o modificar los archivos (¡siempre hay cambios de último momento!) y 
                         volver a procesar sin que esto signifique pasar la noche en vela, 
                         vas a tener un área contable muy feliz.
-                        <br/>
-                        Y no sólo eso: si quieres hacer pruebas haciendo pequeñas modificaciones
+                    </p>
+                    
+                    <p>Y no sólo eso: si quieres hacer pruebas haciendo pequeñas modificaciones
                         en los valores de límites, garantías, reservas, etc, puedes estar 
                         tranquilo sabiendo que cada cambio significará cinco, diez minutos en
                         el tiempo total.
-                        <br/>
-                        ¿Qué dices? ¿Que tardan semanas en generar los archivos para el R8? 
+                    </p>
+                    
+                    <p>¿Qué dices? ¿Que tardan semanas en generar los archivos para el R8? 
                         Lo entendemos. Con nuestro sistema, y haciendo una integración con tus 
                         sistemas / archivos fuente, tardarás sólo horas. Sí, horas.
-                        
                     </p>
 
                 </div>
@@ -190,20 +198,22 @@ function Contenido(props) {
                         (Edge, Internet Explorer, Firefox, Chrome, Safari), no es necesario
                         instalar ningún software especial en las máquinas de tus usuarios,
                         ni aprobar el uso de una computadora en especial. ¡Ni siquiera 
-                        estar en la oficina! 
-                        <br/>
-                        Puedes acceder al sistema desde una computadora conectada a internet.
+                        estar en la oficina!
+                    </p>
+                    
+                    <p>Puedes acceder al sistema desde una computadora conectada a internet.
                         Sólo tienes que introducir usuario y contraseña, y listo. Esto, por
                         supuesto, con todas las medidas de seguridad (descritas más abajo).
-                        <br/>
-                        <br/>
-                        Tenemos una aplicación móvil (disponible en Apple App Store y Google 
+                    </p>
+                    
+                    <p>Tenemos una aplicación móvil (disponible en Apple App Store y Google 
                         Play Store) que cualquiera de tus usuarios pueden descargar absolutamente
                         sin costo.
-                        <br/>
-                        Desde la aplicación podrán revisar el estatus de los Reportes
+                    </p>
+                    
+                    <p>Desde la aplicación podrán revisar el estatus de los Reportes
                         (en los que tengan permisos) e incluso ver el contenido de los 
-                        archivos. 
+                        archivos.
                     </p>
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">

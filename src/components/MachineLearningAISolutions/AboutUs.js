@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby'
+import { calculateYearsSince2017 } from '../../utils/calculateYears'
 
 import AboutImg from '../../assets/images/about/about-img14.png'
 import StarIcon from '../../assets/images/star-icon.png'
@@ -15,6 +16,8 @@ const AboutUs = () => {
     const openModal = () => {
         setIsOpen(!isOpen);
     }
+    
+    const yearsInMarket = calculateYearsSince2017();
 
     return (
         <React.Fragment>
@@ -62,7 +65,7 @@ const AboutUs = () => {
                                     <ul className="features-list">
                                         <li>
                                             <img src={Icon4} alt="Icon4" />
-                                            <h3>8 años</h3>
+                                            <h3>{yearsInMarket} años</h3>
                                             <p>En el mercado</p>
                                         </li>
                                         <li>

@@ -8519,11 +8519,19 @@ Testimonials Area CSS
   z-index: 1;
   padding: 130px 50px 50px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
 }
 
 .single-testimonials-item p {
   margin-bottom: 0;
   font-size: 18px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .single-testimonials-item::before {

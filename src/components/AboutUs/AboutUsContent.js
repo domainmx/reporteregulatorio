@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
+import { calculateYearsSince2017 } from '../../utils/calculateYears'
 import aboutImage from '../../assets/images/about/about-img14.png'
 import starIcon from '../../assets/images/star-icon.png'
 import icon4 from '../../assets/images/icons/icon4.png'
@@ -9,6 +10,8 @@ import icon7 from '../../assets/images/icons/icon7.png'
 import shape1 from '../../assets/images/shape/circle-shape1.png'
  
 const AboutUsContent = () => {
+    const yearsInMarket = calculateYearsSince2017();
+    
     return (
         <section className="about-area ptb-100">
             <div className="container-fluid">
@@ -31,7 +34,7 @@ const AboutUsContent = () => {
                                 <ul className="features-list">
                                     <li>
                                         <img src={icon4} alt="banner" />
-                                        <h3>6 años</h3>
+                                        <h3>{yearsInMarket} años</h3>
                                         <p>En el mercado</p>
                                     </li>
                                     <li>

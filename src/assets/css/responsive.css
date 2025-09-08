@@ -1454,6 +1454,7 @@
   }
   .single-testimonials-item {
     padding: 70px 20px 25px;
+    min-height: 450px;
   }
   .single-testimonials-item::after {
     top: -10px;
@@ -3139,6 +3140,7 @@
   }
   .single-testimonials-item {
     padding: 110px 25px 35px;
+    min-height: 470px;
   }
   .single-testimonials-item::before {
     height: 92%;

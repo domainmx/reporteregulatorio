@@ -1851,6 +1851,7 @@ $value_nine: 1550px;
     }
     .single-testimonials-item {
         padding: 70px 20px 25px;
+        min-height: 400px;
 
         &::after {
             top: -10px;
@@ -4111,6 +4112,7 @@ $value_nine: 1550px;
     }
     .single-testimonials-item {
         padding: 110px 25px 35px;
+        min-height: 420px;
 
         &::before {
             height: 92%;

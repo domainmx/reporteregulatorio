@@ -9,11 +9,11 @@ import Loadable from '@loadable/component'
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
 const options = {
-    loop: true,
-    nav: true,
+    loop: false,
+    nav: false,
     dots: false,
-    autoplayHoverPause: true,
-    autoplay: true,
+    autoplayHoverPause: false,
+    autoplay: false,
     margin: 30,
     navText: [
         "<i class='flaticon-left-1'></i>",
@@ -83,7 +83,7 @@ const Testimonials = () => {
 
                 </OwlCarousel> : ''}
 
-                <div className="testimonials-view-btn text-center">
+                <div className="testimonials-view-btn text-center" style={{display: 'none'}}>
                     <Link to="/testimonials" className="default-btn">
                         <i className="flaticon-view"></i> 
                         Ver todos los testimonios <span></span>

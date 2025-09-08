@@ -11,10 +11,10 @@ const AboutUs = () => {
         <Layout>
             <NavbarTwo />
             <PageBanner
-                pageTitle="Acerca de" 
+                pageTitle="Sobre IntraVR360" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Acerca de" 
+                activePageText="Sobre IntraVR360" 
             />
             <AboutUsContent />
             <Footer />

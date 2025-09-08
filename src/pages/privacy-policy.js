@@ -1,139 +1,150 @@
 import React from 'react'
 import Layout from "../components/App/Layout"
-import Navbar from "../components/App/Navbar"
+import NavbarTwo from "../components/App/NavbarTwo"
 import PageBanner from '../components/Common/PageBanner'
 import Footer from "../components/App/Footer"
 import { Link } from 'gatsby'
-import privacyPolicy from '../assets/images/privacy-policy.jpg'
 
 const PrivacyPolicy = () => {
     return (
         <Layout>
-            <Navbar />
+            <NavbarTwo />
             <PageBanner
-                pageTitle="Privacy Policy" 
+                pageTitle="Aviso de Privacidad" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Privacy Policy" 
+                activePageText="Aviso de Privacidad" 
             />
             <section className="privacy-policy-area ptb-100">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 col-md-12">
-                            <div className="privacy-policy-content">
-                                <img src={privacyPolicy} alt="pp" />
-                                <p><i>This Privacy Policy was last updated on January 1, 2020.</i></p>
-                                <h3>1. What Data We Get</h3>
-                                <blockquote className="blockquote">
-                                    <p>We collect certain data from you directly, like information you enter yourself, data about your participation in courses, and data from third-party platforms you connect with WideCademy. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using.</p>
-                                </blockquote>
-                                <h3>2. Data You Provide to Us</h3>
-                                <p>We may collect different data from or about you depending on how you use the Services. Below are some examples to help you better understand the data we collect.</p>
-                                <h3>3. How We Get Data About You</h3>
-                                <p>We use tools like cookies, web beacons, analytics services, and advertising providers to gather the data listed above. Some of these tools offer you the ability to opt out of data collection.</p>
-                                <h3>4. What We Use Your Data For</h3>
-                                <ol>
-                                    <li>Responding to your questions and concerns;</li>
-                                    <li>Sending you administrative messages and information, including messages from instructors and teaching assistants, notifications about changes to our Service, and updates to our agreements;</li>
-                                    <li>Sending push notifications to your wireless device to provide updates and other relevant messages (which you can manage from the “options” or “settings” page of the mobile app);</li>
-                                </ol>
-                                <h3>5. Your Choices About the Use of Your Data</h3>
-                                <p>You can choose not to provide certain data to us, but you may not be able to use certain features of the Services.</p>
+                        <div className="col-lg-12 col-md-12">
+                            <div className="privacy-policy-content" style={{marginTop: '60px'}}>
+                                <h3 style={{fontSize: '24px', fontWeight: '600', marginBottom: '30px'}}>AVISO DE PRIVACIDAD</h3>
+                                
+                                <p>
+                                    DOMAIN DIFFERENTECH SA DE CV, mejor conocido como DOMAIN), con domicilio en calle Prolongación 
+                                    Vasco de Quiroga #3735, colonia El Yaqui, ciudad CDMX, municipio o delegación Cuajimalpa, c.p. 05320, en la 
+                                    entidad de CDMX, país México, y portal de internet domainmx.mx, es el responsable del uso y protección de sus 
+                                    datos personales, y al respecto le informamos lo siguiente:
+                                </p>
+
+                                <h3><span style={{color: '#ff6600'}}>1.</span> ¿Para qué fines utilizaremos sus datos personales?</h3>
+                                
+                                <div style={{backgroundColor: '#ffe8d6', padding: '20px', marginBottom: '20px', borderRadius: '5px'}}>
+                                    <p style={{fontStyle: 'italic', color: '#000000'}}>
+                                        Utilizaremos su información personal para las siguientes finalidades secundarias que no son 
+                                        necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:
+                                    </p>
+                                </div>
+
                                 <ul>
-                                    <li>To stop receiving promotional communications from us, you can opt out by using the unsubscribe mechanism in the promotional communication you receive or by changing the email preferences in your account. Note that regardless of your email preference settings, we will send you transactional and relationship messages regarding the Services, including administrative confirmations, order confirmations, important updates about the Services, and notices about our policies.</li>
-                                    <li>The browser or device you use may allow you to control cookies and other types of local data storage. Your wireless device may also allow you to control whether location or other data is collected and shared. You can manage Adobe’s LSOs through their Website Storage Settings panel.</li>
-                                    <li>To get information and control cookies used for tailored advertising from participating companies, see the consumer opt-out pages for the Network Advertising Initiative and Digital Advertising Alliance, or if you’re located in the European Union, visit the Your Online Choices site. To opt out of Google’s display advertising or customize Google Display Network ads, visit the Google Ads Settings page. To opt out of Taboola’s targeted ads, see the Opt-out Link in their Cookie Policy.</li>
-                                    <li>To update data you provide directly, log into your account and update your account at any time.</li>
+                                    <li>para tener contacto con el personal del cliente relacionado con el proyecto</li>
                                 </ul>
-                                <h3>6. Our Policy Concerning Children</h3>
-                                <p>We recognize the privacy interests of children and encourage parents and guardians to take an active role in their children’s online activities and interests. Children under 13 (or under 16 in the European Economic Area) should not use the Services. If we learn that we’ve collected personal data from a child under those ages, we will take reasonable steps to delete it.</p>
+
+                                <p>
+                                    En caso de que no desee que sus datos personales se utilicen para estos fines secundarios, indíquelo a 
+                                    continuación:
+                                </p>
+
+                                <p>No consiento que mis datos personales se utilicen para los siguientes fines:</p>
+
+                                <p>[ ] para tener contacto con el personal del cliente relacionado con el proyecto</p>
+
+                                <p>
+                                    La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le 
+                                    neguemos los servicios y productos que solicita o contrata con nosotros.
+                                </p>
+
+                                <h3><span style={{color: '#ff6600'}}>2.</span> ¿Qué datos personales utilizaremos para estos fines?</h3>
+
+                                <p>
+                                    Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los siguientes datos 
+                                    personales:
+                                </p>
+
+                                <ul>
+                                    <li>Nombre</li>
+                                    <li>Teléfono celular</li>
+                                    <li>Puesto o cargo que desempeña</li>
+                                    <li>Correo electrónico institucional</li>
+                                    <li>Teléfono institucional</li>
+                                    <li>Datos de identificación</li>
+                                    <li>Datos de contacto</li>
+                                </ul>
+
+                                <h3><span style={{color: '#ff6600'}}>3.</span> ¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso?</h3>
+
+                                <p>
+                                    Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del 
+                                    uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de 
+                                    que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o 
+                                    bases de datos cuando considere que la misma no está siendo utilizada adecuadamente (Cancelación); así como 
+                                    oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como 
+                                    derechos ARCO.
+                                </p>
+
+                                <p>
+                                    Para el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud respectiva a través del 
+                                    siguiente medio:
+                                </p>
+
+                                <p>
+                                    Enviando un correo electrónico a: <a href="mailto:contacto@domainmx.mx">contacto@domainmx.mx</a>
+                                </p>
+
+                                <p>
+                                    Con relación al procedimiento y requisitos para el ejercicio de sus derechos ARCO, le informamos lo siguiente:
+                                </p>
+
+                                <ul>
+                                    <li>¿A través de qué medios pueden acreditar su identidad el titular y, en su caso, su representante, 
+                                    así como la personalidad de este último?<br/>
+                                    Identificación oficial</li>
+                                    
+                                    <li>¿Qué información y/o documentación deberá contener la solicitud?<br/>
+                                    Nombre completo, correo electrónico, teléfono de contacto y descripción de la solicitud</li>
+                                    
+                                    <li>¿En cuántos días le daremos respuesta a su solicitud?<br/>
+                                    20 días hábiles</li>
+                                    
+                                    <li>¿Por qué medio le comunicaremos la respuesta a su solicitud?<br/>
+                                    Correo electrónico</li>
+                                </ul>
+
+                                <h3><span style={{color: '#ff6600'}}>4.</span> ¿Cómo puede limitar el uso o divulgación de su información personal?</h3>
+
+                                <p>
+                                    Con objeto de que usted pueda limitar el uso y divulgación de su información personal, le ofrecemos los 
+                                    siguientes medios:
+                                </p>
+
+                                <ul>
+                                    <li>Enviando un correo electrónico a: contacto@domainmx.mx</li>
+                                </ul>
+
+                                <h3><span style={{color: '#ff6600'}}>5.</span> ¿Cómo puede conocer los cambios en este aviso de privacidad?</h3>
+
+                                <p>
+                                    El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos 
+                                    requerimientos legales; de nuestras propias necesidades por los productos o servicios que ofrecemos; de 
+                                    nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o por otras causas.
+                                </p>
+
+                                <p>
+                                    Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, 
+                                    a través de: Correo electrónico.
+                                </p>
+
+                                <p>
+                                    El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o actualizaciones al 
+                                    presente aviso de privacidad es el siguiente:
+                                </p>
+
+                                <p>
+                                    Se enviará un correo electrónico a los contactos registrados.
+                                </p>
                             </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-12">
-                            <aside className="widget-area">
-                                <div className="widget widget_insight">
-                                    <ul>
-                                        <li>
-                                            <Link to="/about-us">
-                                                About Us
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/contact">
-                                                Contact Us
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#">
-                                                Purchase Guide
-                                            </Link>
-                                        </li>
-                                        <li className="active">
-                                            <Link to="/privacy-policy">
-                                                Privacy Policy
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to="#">
-                                                Terms of Service
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div className="widget widget_recent_courses">
-                                    <h3 className="widget-title">Recent Courses</h3>
-
-                                    <article className="item">
-                                        <Link to="#" className="thumb">
-                                            <span className="fullimage cover bg1" role="img"></span>
-                                        </Link>
-                                        <div className="info">
-                                            <span>$49.00</span>
-                                            <h4 className="title usmall"><Link to="#">The Data Science Course 2020: Complete Data Science Bootcamp</Link></h4>
-                                        </div>
-                                        <div className="clear"></div>
-                                    </article>
-
-                                    <article className="item">
-                                        <Link to="#" className="thumb">
-                                            <span className="fullimage cover bg2" role="img"></span>
-                                        </Link>
-                                        <div className="info">
-                                            <span>$59.00</span>
-                                            <h4 className="title usmall"><Link to="#">Java Programming MasterclassName for Software Developers</Link></h4>
-                                        </div>
-                                        <div className="clear"></div>
-                                    </article>
-
-                                    <article className="item">
-                                        <Link to="#" className="thumb">
-                                            <span className="fullimage cover bg3" role="img"></span>
-                                        </Link>
-                                        <div className="info">
-                                            <span>$69.00</span>
-                                            <h4 className="title usmall"><Link to="#">Deep Learning A-Z™: Hands-On Artificial Neural Networks</Link></h4>
-                                        </div>
-                                        <div className="clear"></div>
-                                    </article>
-                                </div>
-
-                                <div className="widget widget_tag_cloud">
-                                    <h3 className="widget-title">Popular Tags</h3>
-
-                                    <div className="tagcloud">
-                                        <Link to="#">Business <span className="tag-link-count"> (3)</span></Link>
-                                        <Link to="#">Design <span className="tag-link-count"> (3)</span></Link>
-                                        <Link to="#">Braike <span className="tag-link-count"> (2)</span></Link>
-                                        <Link to="#">Fashion <span className="tag-link-count"> (2)</span></Link>
-                                        <Link to="#">Travel <span className="tag-link-count"> (1)</span></Link>
-                                        <Link to="#">Smart <span className="tag-link-count"> (1)</span></Link>
-                                        <Link to="#">Marketing <span className="tag-link-count"> (1)</span></Link>
-                                        <Link to="#">Tips <span className="tag-link-count"> (2)</span></Link>
-                                    </div>
-                                </div>
-                            </aside>
                         </div>
                     </div>
                 </div>
